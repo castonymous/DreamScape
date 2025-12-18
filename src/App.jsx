@@ -479,7 +479,6 @@ const DreamScapePro = () => {
                   <button 
                     onClick={() => {
                         if(confirm('Yakin ingin menghapus mimpi ini?')) {
-                            // Logic delete would go here
                             setBuckets(buckets.filter(b => b.id !== activeBucket.id));
                             setViewMode('list');
                         }
